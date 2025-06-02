@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPXone Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <header class="bg-white shadow-md p-4 md:p-6">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-indigo-700 mb-4 md:mb-0">ASPXone</a>
+            <nav class="flex flex-wrap justify-center space-x-4 md:space-x-8">
+                <a href="https://dev.to/aspxone-official" class="text-lg font-medium text-gray-700 hover:text-indigo-600 transition duration-300 ease-in-out rounded-md p-2" target="_blank">Dev.To</a>
+                <a href="#tools" class="text-lg font-medium text-gray-700 hover:text-indigo-600 transition duration-300 ease-in-out rounded-md p-2">Tools</a>
+                <a href="#webinars" class="text-lg font-medium text-gray-700 hover:text-indigo-600 transition duration-300 ease-in-out rounded-md p-2">Webinars</a>
+                <a href="#contact" class="text-lg font-medium text-gray-700 hover:text-indigo-600 transition duration-300 ease-in-out rounded-md p-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-20 md:py-32 text-center rounded-b-lg shadow-xl mx-4 mt-4">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                Crafting Exceptional Web Experiences
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                Specializing in Razor Pages, PHP, and ASP.NET Core MVC, ASPXone delivers robust and beautiful web solutions.
+            </p>
+            <a href="#services" class="inline-block bg-white text-indigo-700 hover:bg-indigo-100 px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Explore Our Services
+            </a>
+        </div>
+    </section>
+
+
+    <section id="tools" class="py-16 md:py-24 bg-gray-100 mx-4 mt-8 rounded-lg shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12">Our Tools</h2>
+            <div class="flex flex-col items-center justify-center">
+                <p class="text-xl text-gray-700 mb-8 max-w-2xl">
+                    Enhance your development workflow with our powerful tools, designed to streamline your projects.
+                </p>
+                <a href="https://aspxone-builder.lovable.app/" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-indigo-600 text-white hover:bg-indigo-700 px-10 py-5 rounded-full text-xl font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50">
+                    Go to Builder
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="webinars" class="py-16 md:py-24 bg-white mx-4 mt-8 rounded-lg shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12">Webinars list</h2>
+            <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                Stay tuned for our insightful webinars covering the latest trends and best practices in web development with Razor Pages, PHP, and ASP.NET Core MVC.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">D-I VB.NET and Razor</h3>
+                    <p class="text-gray-600 mb-4">
+                        Adding VB.NET support to empower VB.NET developers in web development. We will also add Razor security and support. Up to date and Our first webinar ever happening!
+                    </p>
+                    <span class="text-sm text-indigo-600 font-medium">Date: 20 August 2025</span>
+                </div>
+                <br>
+        </div>
+        <div class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-20 md:py-16 text-center rounded-b-lg shadow-xl mx-4 mt-2"><h2 class="text-xl">Quick Facts about our Webinars!</h2>
+        <br>
+        <p style="margin: 20px;"><b>The number of event happening our company time is written roman numbers</b> like if it is our 2nd event it will be "II"</p>
+        <br>
+        <p style="margin: 20px;"><b>The first letter in our event determines</b> whether it is a social media or community update event or development-based.
+        <br>
+        <b>"D"</b> means the update is <b>development-based</b>
+        <br>
+        <b>"C"</b> means the update is <b>community-based and social media based.</b>
+        </p>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-gray-200 mx-4 mt-8 rounded-lg shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8">Report a bug!</h2>
+            <p class="text-xl text-gray-700 mb-8">
+               Have a bug in one of our apps? We would love to help!
+            </p>
+            <center>
+              <iframe src="https://aspxone.retool.com/form/79caa3b7-bf2c-4403-8dfa-51ef54c06e1a" height="500vw" width="440vw">
+              
+            </iframe>
+            </center>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 mt-8 rounded-t-lg mx-4">
+        <div class="container mx-auto px-4 text-center flex flex-col sm:flex-row justify-center items-center gap-4">
+            <p>ASPXone website, owned by the official <a href="https://github.com/CanvasDeno" target="_blank" style="text-decoration: underline;">Github account</a></p>
+            <a href="https://dev.to/aspxone" target="_blank" rel="noopener noreferrer" class="hover:opacity-75 transition-opacity duration-300">
+                <img src="https://raw.githubusercontent.com/CanvasDeno/site/cbc0621c7de567250654c780eaa406b4de3ac71f/Aspx%20Styled.svg" alt="Dev.to" class="h-8 w-auto">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
+
